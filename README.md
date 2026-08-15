@@ -15,9 +15,13 @@ The case study connects:
 ## System Under Test
 
 **Application:** Automation Exercise
+
 **Domain:** eCommerce
+
 **Type:** Web Application
+
 **URL:** https://automationexercise.com/
+
 
 ## Business Areas & Flows
 
