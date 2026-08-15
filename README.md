@@ -44,7 +44,7 @@ The case study connects:
 
 ### QA Management & Collaboration
 
-- [Jira] (https://pradipta-qa-portfolio.atlassian.net/jira/software/projects/KAN/summary)
+- [Jira](https://pradipta-qa-portfolio.atlassian.net/jira/software/projects/KAN/summary)
 - GitHub
 
 ### Automation
