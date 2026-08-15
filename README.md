@@ -4,11 +4,13 @@
 
 This repository demonstrates an end-to-end QA Engineering approach for the Automation Exercise eCommerce application.
 
-The case study is designed as a portfolio project and connects:
+The case study connects:
 
-**Business Requirement → Test Scenario → Test Case → Execution → Automation / Evidence**
+**Business Requirement → Test Scenario → Test Case → Execution → Automation**
 
-GitHub is the detailed QA portfolio/source-of-truth artifact. Jira is used as the supporting QA management artifact for feature tracking, status, defect lifecycle and traceability.
+**GitHub:** Detailed QA portfolio and project documentation.
+**Jira:** QA tracking and project management for features, testing, defects, and traceability.
+
 
 ## System Under Test
 
@@ -25,22 +27,6 @@ GitHub is the detailed QA portfolio/source-of-truth artifact. Jira is used as th
 - Payment
 - Order & Purchase
 
-## QA Lifecycle
-
-```text
-Requirement
-    ↓
-Test Scenario
-    ↓
-Test Case
-    ↓
-Manual / Automation Execution
-    ↓
-Defect / Retest where applicable
-    ↓
-Evidence & Reporting
-```
-
 ## Testing Types
 
 - Functional Testing
@@ -55,9 +41,9 @@ Evidence & Reporting
 
 ## Technology & Tools
 
-### QA / Management
+### QA Management & Collaboration
 
-- Jira
+- [Jira] (https://pradipta-qa-portfolio.atlassian.net/jira/software/projects/KAN/summary)
 - GitHub
 
 ### Automation
@@ -76,44 +62,10 @@ Evidence & Reporting
 - Configuration management
 - Reusable Selenium utilities
 
-## Current Automation Framework
-
-The supplied AutomationFramework contains a Sanity E2E flow covering:
-
-```text
-Login
-  ↓
-Product Search / Product Details
-  ↓
-Clear Existing Cart
-  ↓
-Excel-driven Product Addition
-  ↓
-Cart Total Validation
-  ↓
-Delivery Address Validation
-  ↓
-Payment
-  ↓
-Order Confirmation
-  ↓
-Logout
-```
-
-### Current Test Data
-
-The `ProductDetails` Excel sheet contains:
-
-| Product | Quantity |
-|---|---:|
-| Blue Top | 2 |
-| Men Tshirt | 3 |
-
-Payment data is read from framework configuration.
 
 ## Automation Coverage
 
-### Implemented
+### Automated
 
 - Customer login
 - Product search
@@ -129,9 +81,9 @@ Payment data is read from framework configuration.
 - Payment form entry
 - Payment submission
 - Order confirmation
-- Logout flow implementation
+- Logout flow
 
-### Partial / Manual
+### Partially Automated / Manual
 
 - Product category browsing
 - Product brand browsing
@@ -141,25 +93,6 @@ Payment data is read from framework configuration.
 - Negative login scenarios
 - Invoice download
 
-## Execution Evidence
-
-The repository was supplied with historical Extent reports and the latest Surefire result.
-
-The latest supplied `SanityE2E` execution is **FAIL**, with:
-
-`org.openqa.selenium.NoSuchWindowException`
-
-The failure occurs during initial navigation while `SeleniumUtils.closeAdIfPresent()` attempts iframe/window handling before clicking Signup/Login.
-
-Therefore, this case study intentionally does **not** claim a fresh end-to-end PASS from the latest execution artifact.
-
-This is a framework/test-infrastructure issue rather than an application functional defect.
-
-See:
-
-`06-Defects/README.md`
-
-for the classification.
 
 ## Project Structure
 
@@ -213,25 +146,17 @@ qa-case-study/
     └── Order-Purchase.md
 ```
 
-## Jira Strategy
+## QA Engineering Focus
 
-Customer Account Management currently has confirmed Jira mapping:
+This case study demonstrates a practical QA Engineering approach across:
 
-- KAN-7 — Customer Registration
-- KAN-8 — Existing Email Validation
-- KAN-9 — Customer Login
-- KAN-10 — Invalid Login Validation
-- KAN-11 — Customer Logout
-- KAN-12 — Customer Account Deletion
+* Business understanding
+* Requirement analysis
+* Test design
+* Functional and end-to-end testing
+* Automation of high-value scenarios
+* Defect identification and classification
+* Test execution and reporting
+* Traceability and QA documentation
 
-New business-area Jira keys are intentionally marked `To be linked` until the actual Jira issues are created and confirmed.
-
-This avoids false traceability.
-
-Jira is not intended to duplicate the complete GitHub documentation tree.
-
-## Portfolio Principle
-
-The project demonstrates not only automation scripting but the broader QA Engineering lifecycle:
-
-**Understand the business → derive requirements → design scenarios → write test cases → execute → automate high-value flows → classify failures → maintain traceability → report honestly.**
+The focus is on demonstrating how a QA Engineer approaches a real-world application, rather than automation scripting alone.
