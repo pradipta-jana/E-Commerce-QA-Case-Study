@@ -9,6 +9,7 @@ The case study connects:
 **Business Requirement → Test Scenario → Test Case → Execution → Automation**
 
 **GitHub:** Detailed QA portfolio and project documentation.
+
 **[Jira:](https://pradipta-qa-portfolio.atlassian.net/jira/software/projects/KAN/summary)** QA tracking and project management for features, testing, defects, and traceability.
 
 ## System Under Test
@@ -71,6 +72,8 @@ Place Order → Verify Order Confirmation → Download Invoice
 
 ## Automation Coverage
 
+### The automated scenarios are implemented in the [Automation Framework](https://github.com/pradipta-jana/AutomationFramework) repository.
+
 #### Automated
 
 * Customer login
@@ -126,3 +129,8 @@ This case study demonstrates a practical QA Engineering approach covering:
 The focus is on demonstrating **how a QA Engineer approaches a real-world application**, rather than automation scripting alone.
 
 The objective is **not to achieve complete application or end-to-end coverage**, but to demonstrate a practical QA Engineering approach by selecting meaningful business workflows, designing appropriate tests, automating high-value scenarios, and maintaining clear traceability and documentation.
+
+
+## Connect
+
+- [LinkedIn](www.linkedin.com/in/pradiptajana)
