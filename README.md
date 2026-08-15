@@ -8,8 +8,8 @@ The case study connects:
 
 **Business Requirement → Test Scenario → Test Case → Execution → Automation**
 
-**GitHub:** Detailed QA portfolio and project documentation.
-**Jira:** QA tracking and project management for features, testing, defects, and traceability.
+- **GitHub:** Detailed QA portfolio and project documentation.
+- **Jira:** QA tracking and project management for features, testing, defects, and traceability.
 
 
 ## System Under Test
