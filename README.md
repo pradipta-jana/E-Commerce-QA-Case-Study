@@ -133,4 +133,4 @@ The objective is **not to achieve complete application or end-to-end coverage**,
 
 ## Connect
 
-- [LinkedIn](www.linkedin.com/in/pradiptajana)
+- [LinkedIn](https://www.linkedin.com/in/pradiptajana/)
