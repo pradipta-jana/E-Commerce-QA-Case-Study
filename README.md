@@ -22,33 +22,6 @@ The case study connects:
 
 **URL:** https://automationexercise.com/
 
-
-## Business Areas & Flows
-
-#### Customer Account Management
-
-Registration → Login → Logout
-
-#### Product Discovery
-
-Browse → Search → View Details
-
-#### Shopping Cart
-
-Add Product → Set Quantity → Add Multiple Products → Verify Price/Total → Remove/Clear Cart
-
-#### Checkout
-
-Cart → Proceed to Checkout → Verify Delivery Address → Review Order
-
-#### Payment
-
-Enter Payment Details → Submit Payment → Payment Confirmation
-
-#### Order & Purchase
-
-Place Order → Verify Order Confirmation → Download Invoice
-
 ## Testing Types
 
 * Functional Testing
@@ -78,44 +51,19 @@ Place Order → Verify Order Confirmation → Download Invoice
 
 ### The automated scenarios are implemented in the [Automation Framework](https://github.com/pradipta-jana/AutomationFramework) repository.
 
-#### Automated
-
-* Customer login
-* Product search
-* Product availability validation
-* Product details navigation
-* Product price retrieval
-* Cart clearing
-* Multiple product addition
-* Excel-driven quantity
-* Expected cart total calculation
-* Actual cart total validation
-* Delivery address validation
-* Payment form entry
-* Payment submission
-* Order confirmation
-* Logout flow
-
-#### Partially Automated / Manual
-
-* Product category browsing
-* Product brand browsing
-* Dedicated product-price-in-cart assertion
-* Standalone remove-product test
-* Dedicated order-review assertion
-* Negative login scenarios
-* Invoice download
 
 ## Project Structure
 
-The repository is organized around the key stages of the QA process:
+The repository is organized around the key stages of the QA lifecycle, from understanding the application and defining test coverage through execution, automation, and continuous improvement:
 
-* **Requirements** — Business requirements for each application area.
-* **Traceability** — Mapping between requirements, test scenarios, test cases, and execution.
-* **Test Scenarios** — High-level scenarios derived from the requirements.
-* **Test Cases** — Detailed test cases covering positive and negative validations.
-* **Defects** — Documented defects, investigation, and classification.
-* **Test Execution** — Execution results and test status by business area.
+* **Application & Business Flow** - Application overview, business workflows, and key user journeys.
+* **Test Strategy** - QA approach, testing scope, priorities, and overall test strategy.
+* **Test Cases** - Detailed functional test cases covering positive and negative validations.
+* **Test Execution** - Execution results, test status, and observations by business area.
+* **Defects** - Documented defects, investigation, classification, and validation results.
+* **Automation** - Automation scope, technology stack, framework architecture, automated scenarios, and future improvements.
+* **Challenges, Lessons Learned & Improvements** - Key challenges encountered, lessons learned during the QA process, and opportunities for future improvement.
+
 
 ## QA Engineering Focus
 
