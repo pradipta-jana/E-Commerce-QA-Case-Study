@@ -17,8 +17,6 @@ Validate that the application displays the appropriate order confirmation after 
 
 #### TC 07 OVR 01 A - Verify Order Confirmation
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -35,8 +33,6 @@ None
 ---
 
 #### TC 07 OVR 01 B - Verify Order Confirmation Message
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 

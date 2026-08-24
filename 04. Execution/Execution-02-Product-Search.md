@@ -17,8 +17,6 @@ Validate the product search functionality and verify that the application return
 
 #### TC 02 PSR 01 A - Search for a Valid Product
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -36,8 +34,6 @@ None
 
 #### TC 02 PSR 01 B - Search with a Partial Product Name
 
-**Automation Status:** Not Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -54,8 +50,6 @@ None
 ---
 
 #### TC 02 PSR 01 C - Search with a Non-Existing Product
-
-**Automation Status:** Not Automated
 
 **Execution Status:** Not Executed
 
@@ -76,8 +70,6 @@ The search is executed successfully and no matching products are displayed, or t
 
 #### TC 02 PSR 02 A - Verify Searched Product
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -94,8 +86,6 @@ None
 ---
 
 #### TC 02 PSR 02 B - Open Product from Search Results
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 

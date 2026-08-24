@@ -17,8 +17,6 @@ Validate the checkout process, including navigation from the shopping cart, veri
 
 #### TC 05 CHK 01 A - Proceed to Checkout with Product in Cart
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Pass
@@ -35,8 +33,6 @@ N/A
 ---
 
 #### TC 05 CHK 01 B - Verify Checkout Product Details
-
-**Automation Status:** Not Automated
 
 **Execution Status:** Executed
 
@@ -57,8 +53,6 @@ N/A
 
 #### TC 05 CHK 02 A - Verify Delivery Address
 
-**Automation Status:** Not Automated
-
 **Execution Status:** Executed
 
 **Result:** Pass
@@ -76,8 +70,6 @@ N/A
 
 #### TC 05 CHK 02 B - Verify Billing Address
 
-**Automation Status:** Not Automated
-
 **Execution Status:** Executed
 
 **Result:** Pass
@@ -94,8 +86,6 @@ N/A
 ---
 
 #### TC 05 CHK 02 C - Verify Order Summary
-
-**Automation Status:** Automated
 
 **Execution Status:** Not Executed
 
@@ -116,8 +106,6 @@ N/A
 
 #### TC 05 CHK 03 A - Enter Order Comments
 
-**Automation Status:** Not Automated
-
 **Execution Status:** Executed
 
 **Result:** Pass
@@ -134,8 +122,6 @@ N/A
 ---
 
 #### TC 05 CHK 03 B - Proceed from Checkout to Payment
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 

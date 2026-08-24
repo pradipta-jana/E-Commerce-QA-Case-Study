@@ -17,8 +17,6 @@ Validate shopping cart functionality, including adding products, verifying cart 
 
 #### TC 04 CRT 01 A - Add a Product to the Cart
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -36,8 +34,6 @@ None
 
 #### TC 04 CRT 01 B - Add Multiple Products to the Cart
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -54,8 +50,6 @@ None
 ---
 
 #### TC 04 CRT 01 C - Add the Same Product Multiple Times
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 
@@ -76,8 +70,6 @@ None
 
 #### TC 04 CRT 02 A - Verify Product in Cart
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -94,8 +86,6 @@ None
 ---
 
 #### TC 04 CRT 02 B - Verify Product Quantity
-
-**Automation Status:** Not Automated
 
 **Execution Status:** Executed
 
@@ -114,8 +104,6 @@ None
 
 #### TC 04 CRT 02 C - Verify Product Price
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -132,8 +120,6 @@ None
 ---
 
 #### TC 04 CRT 02 D - Verify Cart Total
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 
@@ -153,8 +139,6 @@ None
 ### TS 04 CRT 03 - Proceed from Cart
 
 #### TC 04 CRT 03 A - Proceed to Checkout with Product in Cart
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 

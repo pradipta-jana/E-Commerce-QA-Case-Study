@@ -17,8 +17,6 @@ Validate the order placement process, including payment information, order submi
 
 #### TC 06 ORD 01 A - Enter Valid Payment Details
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -35,8 +33,6 @@ None
 ---
 
 #### TC 06 ORD 01 B - Submit Payment with Missing Payment Details
-
-**Automation Status:** Not Automated
 
 **Execution Status:** Executed
 
@@ -57,8 +53,6 @@ None
 
 #### TC 06 ORD 02 A - Place Order with Valid Payment Details
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -75,8 +69,6 @@ None
 ---
 
 #### TC 06 ORD 02 B - Prevent Order Placement with Invalid Payment Details
-
-**Automation Status:** Not Automated
 
 **Execution Status:** Executed
 
@@ -96,8 +88,6 @@ None
 ### TS 06 ORD 03 - Order Completion
 
 #### TC 06 ORD 03 A - Verify Order Placement Completion
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 

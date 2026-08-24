@@ -17,8 +17,6 @@ Validate the product details displayed for a selected product and verify that th
 
 #### TC 03 PDT 01 A - Verify Product Name
 
-**Automation Status:** Not Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -35,8 +33,6 @@ None
 ---
 
 #### TC 03 PDT 01 B - Verify Product Price
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 
@@ -55,8 +51,6 @@ None
 
 #### TC 03 PDT 01 C - Verify Product Category and Availability
 
-**Automation Status:** Not Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -73,8 +67,6 @@ None
 ---
 
 #### TC 03 PDT 01 D - Verify Product Information
-
-**Automation Status:** Not Automated
 
 **Execution Status:** Executed
 
@@ -95,8 +87,6 @@ None
 
 #### TC 03 PDT 02 A - Add Product to Cart from Product Details
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -113,8 +103,6 @@ None
 ---
 
 #### TC 03 PDT 02 B - Verify Selected Product in Cart
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 

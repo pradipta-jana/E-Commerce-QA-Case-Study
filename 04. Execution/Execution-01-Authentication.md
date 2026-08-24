@@ -17,8 +17,6 @@ Validate the login and logout functionality of the application against the defin
 
 #### TC 01 AUT 01 A - Login with Valid Credentials
 
-**Automation Status:** Automated
-
 **Execution Status:** Executed
 
 **Result:** Passed
@@ -36,8 +34,6 @@ None
 
 #### TC 01 AUT 01 B - Login with Invalid Credentials
 
-**Automation Status:** Not Automated
-
 **Execution Status:** Not Executed
 
 **Expected Result:**
@@ -52,8 +48,6 @@ User is not authenticated and an appropriate login error message is displayed.
 ---
 
 #### TC 01 AUT 01 C - Login Without Credentials
-
-**Automation Status:** Not Automated
 
 **Execution Status:** Not Executed
 
@@ -71,8 +65,6 @@ User is not authenticated and the application performs the appropriate validatio
 ### TS 01 AUT 02 - Logout
 
 #### TC 01 AUT 02 A - Logout from Authenticated Session
-
-**Automation Status:** Automated
 
 **Execution Status:** Executed
 

@@ -1,4 +1,4 @@
-## 3. Test Scenarios
+## 2. Test Scenarios
 
 Test scenarios are derived from the selected business workflow and represent the major functional areas to be validated.
 
