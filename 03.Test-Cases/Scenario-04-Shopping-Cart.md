@@ -156,26 +156,3 @@ This scenario covers shopping cart functionality, including adding products and 
 **Automation Status:** Automated
 
 ---
-
-## TS 04 CRT 03 - Proceed from Cart
-
-### TC 04 CRT 03 A - Proceed to Checkout with Product in Cart
-
-**Pre Condition:**
-
-* User is logged in.
-* At least one product is available in the cart.
-
-**Test Step:**
-
-1. Open the shopping cart.
-2. Review the cart contents.
-3. Click the Proceed to Checkout option.
-
-**Expected Output:**
-
-* The user is successfully navigated to the checkout page.
-
-**Automation Status:** Automated
-
----

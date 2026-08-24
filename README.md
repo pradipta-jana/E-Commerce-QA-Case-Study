@@ -57,7 +57,7 @@ The case study connects:
 The repository is organized around the key stages of the QA lifecycle, from understanding the application and defining test coverage through execution, automation, and continuous improvement:
 
 * **Application & Business Flow** - Application overview, business workflows, and key user journeys.
-* **Test Strategy** - QA approach, testing scope, priorities, and overall test strategy.
+* **Test Scenario** - QA approach, testing scope, priorities, and overall test strategy.
 * **Test Cases** - Detailed functional test cases covering positive and negative validations.
 * **Test Execution** - Execution results, test status, and observations by business area.
 * **Defects** - Documented defects, investigation, classification, and validation results.

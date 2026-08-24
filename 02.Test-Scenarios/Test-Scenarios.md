@@ -26,7 +26,6 @@ Test scenarios are derived from the selected business workflow and represent the
 
 **TS 04 CRT 02** - Verify that the selected product is displayed correctly in the cart.
 
-**TS 04 CRT 03** - Verify relevant cart information such as product, quantity, and price.
 
 ### Scenario 05 - Checkout
 
@@ -34,14 +33,16 @@ Test scenarios are derived from the selected business workflow and represent the
 
 **TS 05 CHK 02** - Verify that the checkout process can be completed with valid information.
 
+**TS 05 CHK 03** - Complete Checkout
+
 ### Scenario 06 - Order Placement
 
 **TS 06 ORD 01** - Verify that the user can successfully place an order.
 
 **TS 06 ORD 02** - Verify that successful order placement is reflected in the application.
 
+**TS 06 ORD 03** - Order Completion
+
 ### Scenario 07 - Order Verification
 
 **TS 07 OVR 01** - Verify that the order confirmation is displayed after successful order placement.
-
-**TS 07 OVR 02** - Verify that the placed order can be verified successfully.
